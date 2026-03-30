@@ -1,0 +1,369 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    text-align: center;
+    
+}
+
+p {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008751;
+    padding: 10px 40px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px #000000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 50px;
+    height: 75px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}   
+
+.dropdown a {
+    color: #f9fafb;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 17px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.dropdown a:hover {
+    background-color: #fff;
+    color: #008751;
+    transition: 0.3s;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  margin-right: 0;
+  transition: 0.3s;
+}
+
+.dropbtn {
+  background-color: #008751;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  transform: translateX(125px);
+}
+
+.dropbtn:hover {
+    color: #008751;
+    transition: 0.3s;
+    border-radius: 3px;
+    cursor: default;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 3px;
+  border: 0;
+  transform: translateX(103px);
+  padding-right: 5px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  transition: 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 0.3s ease;
+}
+
+.dropdown:hover .dropbtn{
+  background-color: #fff;
+  transition: 0.3s;
+  color: #008751;
+}
+
+.loginbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.loginbtn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 5px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.signup {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #bcffb6;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    border: 0;
+}
+
+select {
+    border: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu table {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid rgb(255, 93, 53);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 212, 19);
+    border-width: 50%;
+}
+
+.menu td {
+    border-top: 2px dashed rgb(255, 93, 53);
+    padding: 20px;  
+}
+
+.menu th {
+    padding: 20px;
+    font-size: 20px;
+}
+
+ol {
+    margin-left: 20%;
+    margin-right: 25%
+}
+
+#description-list a {
+    color: #2e69bc;
+    text-decoration: underline;
+}
+
+#description-list a:hover {
+    color: #602ebc;
+    transition: 0.1s;
+}
+
+.gallery img{
+    height: 230px;
+    width:auto;
+    border: solid 8px;
+    border-radius: 5px;
+    margin: 17px;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    transition: 0.3s;
+}
+
+body:has(.jollofrice:hover) {
+    background-color: rgb(255, 177, 177);
+    transition: 0.3s ease;
+}
+
+body:has(.fufu:hover) {
+    background-color: rgb(255, 215, 105);
+    transition: 0.3s ease;
+}
+
+body:has(.egusi-soup:hover) {
+    background-color: rgba(0, 104, 0, 0.315);
+    transition: 0.3s ease;
+}
+
+body:has(.zobo-drink:hover) {
+    background-color: rgb(194, 155, 191);
+    transition: 0.3s ease;
+}
+
+body:has(.suya:hover) {
+    background-color: rgb(177, 250, 255);
+    transition: 0.3s ease;
+}
+
+body:has(.nkwobi:hover) {
+    background-color: rgb(255, 195, 116);
+    transition: 0.3s ease;
+}
+
+body:has(.puffpuff:hover) {
+    background-color: rgb(253, 203, 255);
+    transition: 0.3s ease;
+}
+
+body:has(.chinchin:hover) {
+    background-color: rgb(212, 212, 212);
+    transition: 0.3s ease;
+}
+
+body:has(.ogbonosoup:hover) {
+    background-color: rgba(148, 0, 0, 0.26);
+    transition: 0.3s ease;
+}
+
+body:has(.moinmoin:hover) {
+    background-color: rgba(212, 208, 0, 0.397);
+    transition: 0.3s ease;
+}
+
+#team {
+    height: auto;
+    width:300px;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 1000000px;
+}
+
+#team:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #008751;
+    padding: 30px;
+    border-radius: 100px 0 100px 0;
+    background-image: linear-gradient(to right, #ffffff, #008751);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+figcaption {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.box {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #008751;
+}
+
+iframe {
+    margin-bottom: 50px;
+}
+
+.form {
+    margin-top: 25px;
+}
+
+.hours {
+    text-align: center;
+    margin: auto;
+    font-size: large;
+    border: #008751 solid 8px;
+    border-radius: 20px;
+    width: 50%;
+    padding: 10px;
+}   
+
+.hours td {
+    padding: 5px;
+    
+}
+
+.message {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #bcffb6;
+}
+
+.message-group {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+audio {
+    width: 500px;
+    margin-left: 5%;
+}
